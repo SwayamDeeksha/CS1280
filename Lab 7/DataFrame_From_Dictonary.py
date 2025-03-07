@@ -7,3 +7,6 @@ data = {
 }
 df = pd.DataFrame(data)
 print(df)
+type(df)
+print(data.values(), type(data.values()))
+print(df.index, type(df.index))
