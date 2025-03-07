@@ -1,3 +1,4 @@
+import pandas as pd
 # Create a DataFrame from a dictionary
 data = {
     "Name": ["Ram", "Robert", "Rahim"],
