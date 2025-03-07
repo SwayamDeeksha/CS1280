@@ -20,7 +20,9 @@ print("Access a row by index\n", df.iloc[1], "\n")
 
 # Access a specific cell
 print("# Access a specific cell - Age\n",df.at[0, "Age"],"\n")  # Corrected line
+
 # Slicing
 print("Slicing",df[1:3])  # Slicing rows
+
 # Question
 print("# Access a specific cell\n",df.at[2, "City"],"\n")
