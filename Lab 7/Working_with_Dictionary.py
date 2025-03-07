@@ -1,3 +1,4 @@
+import pandas as pd
 population_dict = {
     "California": 38332521,
     "Texas": 26448193,
