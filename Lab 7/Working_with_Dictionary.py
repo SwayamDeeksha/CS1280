@@ -8,4 +8,6 @@ population = pd.Series(population_dict)
 print(population_dict, type(population_dict))
 print(population, type(population))
 population['California']
-# population['California':'Illinois']
+
+population['California':'Illinois']
+population[0:3]
