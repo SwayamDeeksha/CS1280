@@ -1,9 +1,6 @@
 import pandas as pd
-
-file_path = "2Experience.csv"
-
 try:
-    df = pd.read_csv(file_path)
+    df = pd.read_csv("1experience.csv")
     
     print("First 5 rows of the DataFrame:")
     print(df.head())
